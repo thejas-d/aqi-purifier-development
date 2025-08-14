@@ -1,8 +1,8 @@
-Air Purifier Product–Market Fit Analysis
+#**Air Purifier Product–Market Fit Analysis**
 
 Codebasics Resume Project Challenge #16 – Sponsored by Dataful
 
-📌 Project Overview
+##📌 Project Overview
 
 This project analyzes India’s air quality patterns and their public health impacts to identify high-potential markets for air purifier development.
 Using multiple datasets (AQI, health surveillance, EV adoption, population projections), I applied data analytics and visualization techniques to produce actionable product strategy insights.
@@ -23,7 +23,8 @@ AQI Data	Air quality measurements across India	235,785
 VAHAN Data	EV adoption and registration trends	64,841
 IDSP Data	Health surveillance (reported illnesses)	6,474
 Population Projection	Population estimates by city/state	8,892
-🛠 Tools & Technologies
+
+##🛠 Tools & Technologies
 
 Data Analysis: SQL, Excel, Power Query
 
@@ -33,7 +34,7 @@ Data Processing: Data Cleaning, ETL, Data Modeling
 
 Additional Research: Market & Competitor Benchmarking
 
-📊 Key Insights
+##📊 Key Insights
 
 1️⃣ High-Priority Target Markets – Cities like Delhi, Kolkata, Bengaluru rank in the highest AQI category, ideal for early market penetration.
 2️⃣ Regional Pollutant Profiling – Southern states show different pollutant compositions (PM2.5 vs O₃ dominance), requiring customized filter configurations.
@@ -41,7 +42,7 @@ Additional Research: Market & Competitor Benchmarking
 4️⃣ Health Impact Mapping – Correlation between pollution spikes and illnesses affecting children & elderly.
 5️⃣ Competitive Benchmarking – Brands like Daikin, Eureka Forbes, Cuckoo, Sharp studied for pricing, filtration stages, and smart features.
 
-💡 Business Recommendations
+##💡 Business Recommendations
 
 Regional Product Variants → Filters optimized for local pollutant mix.
 
@@ -51,7 +52,7 @@ Market Entry Prioritization → Focus on high AQI + high population density citi
 
 Smart Features → Bundle real-time AQI monitoring with purifiers.
 
-📈 Outcome & Next Steps
+##📈 Outcome & Next Steps
 
 The research forms a data-backed roadmap for product managers, investors, and marketing teams.
 
@@ -65,7 +66,7 @@ Next Phase: Develop a Power BI dashboard integrating AQI analytics with sales pr
 📄 insights.md                # Summary of findings
 📄 README.md                  # Project documentation
 
-🔗 Live Resources
+##🔗 Live Resources
 
 📊 Power BI Dashboard: (Add Link Here)
 
