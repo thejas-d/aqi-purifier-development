@@ -1,93 +1,79 @@
-🌏 Air Purifier Product–Market Fit Research using AQI Analytics
+Air Purifier Product–Market Fit Analysis
+
+Codebasics Resume Project Challenge #16 – Sponsored by Dataful
+
 📌 Project Overview
-This project combines Air Quality Index (AQI) analytics, health impact data, EV adoption trends, and population statistics to identify product–market fit opportunities for launching an air purifier product in India.
 
-Using SQL, Python, and Power BI, I analyzed large datasets to uncover target markets, pollutant profiles, seasonal trends, and competitive insights — enabling data-driven product development and go-to-market strategy.
+This project analyzes India’s air quality patterns and their public health impacts to identify high-potential markets for air purifier development.
+Using multiple datasets (AQI, health surveillance, EV adoption, population projections), I applied data analytics and visualization techniques to produce actionable product strategy insights.
 
-🎯 Objectives
-Identify high AQI regions for targeted market entry
+The analysis aims to:
 
-Determine most common pollutants by region to design optimized filter configurations
+Pinpoint launch geographies with the highest need for air purifiers.
 
-Understand seasonal and weekly air quality patterns for demand forecasting
+Profile regional pollutants to recommend optimal filter designs.
 
-Map public health outcomes to air pollution exposure
+Map seasonal and weekly pollution patterns for marketing & inventory planning.
 
-Benchmark major competitors to identify key differentiators
+Link health trends to pollution for product features targeting vulnerable populations.
 
-📊 Data Sources
-aqi.csv → Historical Air Quality Index data with pollutant composition
+🗂 Datasets Used
+Dataset	Description	Rows
+AQI Data	Air quality measurements across India	235,785
+VAHAN Data	EV adoption and registration trends	64,841
+IDSP Data	Health surveillance (reported illnesses)	6,474
+Population Projection	Population estimates by city/state	8,892
+🛠 Tools & Technologies
 
-idsp.csv → Integrated Disease Surveillance Program data (health impacts)
+Data Analysis: SQL, Excel, Power Query
 
-vahan.csv → Vehicle registration & EV adoption statistics
+Visualization: Power BI, DAX
 
-population_projection.csv → City-wise population estimates for 2024
+Data Processing: Data Cleaning, ETL, Data Modeling
 
-🔍 Key Analyses Performed
-1️⃣ Market Prioritization
-Top 5 most polluted cities and bottom 5 cleanest cities (Dec 2024 – May 2025)
+Additional Research: Market & Competitor Benchmarking
 
-State-level AQI patterns from 2022 onwards
+📊 Key Insights
 
-2️⃣ Pollutant Profiling
-Top 2 & Bottom 2 prominent pollutants in Southern states
+1️⃣ High-Priority Target Markets – Cities like Delhi, Kolkata, Bengaluru rank in the highest AQI category, ideal for early market penetration.
+2️⃣ Regional Pollutant Profiling – Southern states show different pollutant compositions (PM2.5 vs O₃ dominance), requiring customized filter configurations.
+3️⃣ Seasonal & Weekly Trends – Pollution peaks between October–January; weekdays vs weekends show measurable variation.
+4️⃣ Health Impact Mapping – Correlation between pollution spikes and illnesses affecting children & elderly.
+5️⃣ Competitive Benchmarking – Brands like Daikin, Eureka Forbes, Cuckoo, Sharp studied for pricing, filtration stages, and smart features.
 
-Regional pollutant variations for custom filter design
+💡 Business Recommendations
 
-3️⃣ Temporal Patterns
-Worst months for air quality across top 10 states
+Regional Product Variants → Filters optimized for local pollutant mix.
 
-Weekend vs weekday AQI in metro cities
+Targeted Marketing Campaigns → Messaging linked to local health risks.
 
-4️⃣ Public Health Impact
-Top 2 reported illnesses per state and their AQI correlation
+Market Entry Prioritization → Focus on high AQI + high population density cities.
 
-Age-group-based disease classification (Children, Young Adult, Adult, Elderly)
+Smart Features → Bundle real-time AQI monitoring with purifiers.
 
-5️⃣ EV Adoption vs AQI
-Compared AQI in high EV adoption states vs low adoption states
+📈 Outcome & Next Steps
 
-6️⃣ Competitor Benchmarking
-Studied Daikin, Eureka Forbes, Cuckoo, Sharp on:
+The research forms a data-backed roadmap for product managers, investors, and marketing teams.
 
-Price positioning
+Next Phase: Develop a Power BI dashboard integrating AQI analytics with sales projections, competitor pricing, and consumer segmentation.
 
-Filtration stages
+📂 Repository Structure
+📁 data/                      # Raw & cleaned datasets
+📁 reports/                   # PDF reports & presentations
+📁 dashboard/                 # Power BI files
+📄 aqi_sql_analytics.sql      # SQL queries for data extraction
+📄 insights.md                # Summary of findings
+📄 README.md                  # Project documentation
 
-Smart features (IoT, app integration)
+🔗 Live Resources
 
-🛠 Tech Stack
-SQL – Data querying and transformation
+📊 Power BI Dashboard: (Add Link Here)
 
-Python (Pandas, Matplotlib) – Data processing & visualization
+📄 Full Report: (Add Link Here)
 
-Power BI – Dashboard design for top-level management
+💻 GitHub Repository: [Click Here](https://github.com/thejas-d/aqi-purifier-development/)
 
-Excel – Quick calculations & data checks
+🙏 Acknowledgements
 
-📈 Insights for Product–Market Fit
-High AQI cities (Delhi, Kolkata, Bengaluru) are ideal launch markets
-
-Southern states require region-specific filter combinations (e.g., PM2.5 + O₃-heavy filters)
-
-Demand peaks in Oct–Jan; production cycles should match
-
-Target children & elderly-focused marketing due to higher vulnerability
-
-Adding real-time AQI monitoring as a product feature can increase value proposition
-
-📊 Dashboard Preview
-(Insert Power BI screenshot here)
-
-The dashboard includes:
-
-AQI rankings by city & state
-
-Pollutant frequency maps
-
-Seasonal & weekly AQI variation charts
-
-Health impact mapping
-
-EV adoption vs AQI comparisons
+Special thanks to the Codebasics team, Dhaval Patel sir, and Hemanand Vadivel sir for their guidance in structuring this challenge.
+Sponsored by Dataful.
